@@ -1,0 +1,52 @@
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { FaReact, FaPython, FaCss3Alt } from "react-icons/fa";
+
+export const navButtons = [
+  { id: 1, section: "about", url: "#about" },
+  { id: 2, section: "skills", url: "#skills" },
+  { id: 3, section: "projects", url: "#projects" },
+  { id: 4, section: "certificates", url: "#certificates" },
+  { id: 5, section: "socials", url: "#links" },
+];
+
+export const socialLinks = [
+  {
+    id: 1,
+    name: "facebook",
+    url: "https://www.facebook.com/KappaLords/",
+    icon: <BsFacebook />,
+  },
+  {
+    id: 2,
+    name: "instagram",
+    url: "https://www.instagram.com/p._miroslav/",
+    icon: <BsInstagram />,
+  },
+  {
+    id: 3,
+    name: "linkedin",
+    url: "https://www.linkedin.com/",
+    icon: <BsLinkedin />,
+  },
+];
+
+export const skillsRating = [
+  {
+    id: 1,
+    skill: "python",
+    icon: <FaPython />,
+    rating: 2,
+  },
+  {
+    id: 2,
+    skill: "react",
+    icon: <FaReact />,
+    rating: 3.5,
+  },
+  {
+    id: 3,
+    skill: "html & css",
+    icon: <FaCss3Alt />,
+    rating: 3.5,
+  },
+];
