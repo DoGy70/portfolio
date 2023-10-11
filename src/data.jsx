@@ -36,7 +36,7 @@ export const skillsRating = [
     skill: "python",
     icon: <FaPython />,
     rating: 2,
-    info: "Python is the first language that I started learning. Learning it has laid my fundamentals on programming. I have created one Tic-Tac-Toe console application using it. Basic knowledge.",
+    info: "Python is the first language that I started learning. Learning it has laid my foundations on programming. I have created one Tic-Tac-Toe console application using it. Basic knowledge.",
   },
   {
     id: 2,
@@ -50,6 +50,6 @@ export const skillsRating = [
     skill: "html & css",
     icon: <FaCss3Alt />,
     rating: 3.5,
-    info: "One can not create a website without knowing the fundamentals of CSS and HTML. Grasped the fundamentals but still have a lot of room for improvement.",
+    info: "One can not create a website without knowing the fundamentals of CSS and HTML. I have grasped the fundamentals but still have a lot of room for improvement.",
   },
 ];

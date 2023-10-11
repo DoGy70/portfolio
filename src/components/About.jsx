@@ -10,17 +10,18 @@ const About = () => {
             <h1 className="title">About me</h1>
             <div className="title-underline"></div>
             <p>
-              Welcome to my website! I am a 20 years old male from Sofia,
-              Bulgaria. Programming has been my passion ever since I discovered
-              video games and how they are created. My first steps into the vast
-              programming world were accompanied by creating some basic 2D games
-              with Unity but I slowly came to the conclusion that creating games
-              was not as interesting as I thought it would be so I started
-              developing web sites and fell in love with the process. In this
-              site you will see some of the projects which I have done in my
-              learning. My main motivation is to start a new job where I can
-              finally earn some real-life experience, learn new skills and make
-              new acquaintances in the software development industry.
+              Welcome to my website! My name is Miroslav, I am 20-years-old
+              currently living in Sofia, Bulgaria. Programming has been my
+              passion ever since I discovered video games and how they are
+              created. My first steps into the vast programming world were
+              accompanied by creating some basic 2D games with Unity. However, I
+              slowly came to the conclusion that creating games was not as
+              interesting as I thought it would be so I started developing web
+              sites and fell in love with the process. In this site you will see
+              some of the projects which I have done during my learning. My main
+              motivation is to start a new job where I can finally earn some
+              real-life experience, learn new skills and make new acquaintances
+              in the software development industry.
             </p>
           </div>
           <div className="img-container">
