@@ -10,14 +10,15 @@ const About = () => {
             <h1 className="title">About me</h1>
             <div className="title-underline"></div>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              vero repellendus saepe delectus placeat possimus molestias earum
-              vel sunt, quisquam a culpa obcaecati aliquam beatae architecto.
-              Veritatis voluptate sed cupiditate accusamus itaque, odit amet
-              recusandae nesciunt optio deleniti illum? Aperiam, sequi dolorem.
-              Praesentium quaerat laborum dolores doloremque consectetur,
-              tempora nihil, facilis veniam aperiam suscipit nostrum temporibus
-              quod aliquam explicabo odit!
+              Hello to my website! I am a 20 years old male from Sofia,
+              Bulgaria. Programming has been my passion ever since I discovered
+              video games how they were created. As I started to age my passion
+              for making video games slowly decreased but in its place came my
+              love for making front-end web apps. In this site you will see some
+              of the projects which I have done in my learning process. My main
+              motivation is to start a new job where I can finally earn some
+              real-life project experience and learn new skills and make new
+              acquaintances in the software development industry.
             </p>
           </div>
           <div className="img-container">
