@@ -38,7 +38,8 @@ const Wrapper = styled.article`
 
   .rating {
     display: flex;
-
+    color: var(--grey-700);
+    letter-spacing: var(--letterSpacing);
     div {
       align-self: flex-end;
       width: 100%;
