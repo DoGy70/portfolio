@@ -36,7 +36,7 @@ export const skillsRating = [
     skill: "python",
     icon: <FaPython />,
     rating: 2,
-    info: "Python is the first language that I started learning. Learning it has laid my fundamentals on programming. I have created one Tic-Tac-Toe console with it. Basic knowledge.",
+    info: "Python is the first language that I started learning. Learning it has laid my fundamentals on programming. I have created one Tic-Tac-Toe console application using it. Basic knowledge.",
   },
   {
     id: 2,
