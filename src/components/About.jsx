@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import about from "../images/about.jpg";
+import { aboutMe } from "../data";
 
 const About = () => {
   return (
@@ -9,26 +10,7 @@ const About = () => {
           <div className="info">
             <h1 className="title">About me</h1>
             <div className="title-underline"></div>
-            <p>
-              Welcome to my website! My name is Miroslav. I am 20 years old,
-              currently living in Sofia, Bulgaria, studying Computer and
-              Software Engineering at Technical University - Sofia, second year.
-              Programming has been my passion ever since I discovered video
-              games and how they are created. My first steps into the vast
-              programming world were accompanied by creating some basic 2D games
-              with Unity. However, I slowly came to the conclusion that web
-              development is much more interesting and important. In my opinion,
-              making a beautiful and user-friendly web application that users
-              will appreciate is a must for every company because it is the
-              first interaction, and based on the application, the user will
-              form their first impression. In addition, it is always exciting at
-              the end when I can take a look at the product that I have produced
-              and get feedback from people to whom I show it. On this site, you
-              will see some of the projects I have done during my learning. My
-              main motivation is to start a new job where I can finally earn
-              some real-life experience, learn new skills, and make new
-              acquaintances in the software development industry.
-            </p>
+            <p>{aboutMe}</p>
           </div>
           <div className="img-container">
             <img src={about} className="img" alt="my-photo" />
@@ -79,6 +61,13 @@ const Wrapper = styled.section`
 
   .img-container {
     display: none;
+  }
+
+  @media (max-width: 400px) {
+    p {
+      font-size: smaller;
+      max-height: 500px;
+    }
   }
 
   @media (min-width: 992px) {
