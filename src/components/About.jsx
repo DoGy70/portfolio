@@ -19,8 +19,8 @@ const About = () => {
               developing web sites and fell in love with the process. In this
               site you will see some of the projects which I have done in my
               learning. My main motivation is to start a new job where I can
-              finally earn some real-life experience and learn new skills and
-              make new acquaintances in the software development industry.
+              finally earn some real-life experience, learn new skills and make
+              new acquaintances in the software development industry.
             </p>
           </div>
           <div className="img-container">

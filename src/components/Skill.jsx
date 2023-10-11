@@ -1,32 +1,32 @@
 import { styled } from "styled-components";
 import Rating from "./Rating";
 
-const Skill = ({ id, skill, icon, rating }) => {
+const Skill = ({ id, skill, icon, rating, info }) => {
   return (
     <Wrapper>
       <div className="skill">
         <div className="skill-header">
           <div className="icon">{icon}</div>
           <div className="name">{skill}</div>
-          <p className="desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            voluptas ipsam labore alias nisi expedita dolorem delectus unde ab!
-            Ex?
-          </p>
+          <p className="desc">{info}</p>
         </div>
-        <div className="rating">
+        <footer className="rating">
           <div>skill: {<Rating rating={rating} />}</div>
-        </div>
+        </footer>
       </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.article`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   .skill {
-    max-width: 360px;
+    display: grid;
+    height: 100%;
+    width: 360px;
     background: var(--primary-300);
-    margin: 2.5rem;
     border-radius: var(--borderRadius);
     box-shadow: var(--shadow-1);
     transition: var(--transition);
@@ -34,6 +34,22 @@ const Wrapper = styled.article`
 
   .skill:hover {
     box-shadow: var(--shadow-3);
+  }
+
+  .rating {
+    display: flex;
+
+    div {
+      align-self: flex-end;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      column-gap: 0.25rem;
+      align-items: center;
+      justify-content: center;
+      text-transform: capitalize;
+      padding-bottom: 0.5rem;
+    }
   }
 
   .skill-header {
@@ -70,18 +86,6 @@ const Wrapper = styled.article`
     max-width: 80%;
     font-size: small;
     letter-spacing: var(--letterSpacing);
-  }
-
-  .rating {
-    div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-transform: capitalize;
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-    }
-    height: 40px;
   }
 
   @media (min-width: 992px) {

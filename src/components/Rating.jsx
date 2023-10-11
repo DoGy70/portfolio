@@ -6,7 +6,7 @@ const Rating = ({ rating }) => {
     const number = index + 0.5;
 
     return (
-      <span key={index}>
+      <span key={index} className="shield">
         {rating >= index + 1 ? (
           <TbShieldFilled />
         ) : rating >= number ? (
@@ -19,20 +19,22 @@ const Rating = ({ rating }) => {
   });
   return (
     <Wrapper>
-      <div>{tempRating}</div>
+      <span>{tempRating}</span>
     </Wrapper>
   );
 };
 
-const Wrapper = styled.div`
-  margin-left: 0.55rem;
-  display: flex;
-  align-items: center;
+const Wrapper = styled.span`
+  width: 100%;
   span {
-    padding-top: 0.85rem;
+    display: flex;
+  }
+
+  .shield {
     svg {
       color: var(--primary-500);
-      align-self: center;
+      margin: 0;
+      padding: 0;
     }
   }
 `;

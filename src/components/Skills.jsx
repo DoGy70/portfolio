@@ -29,11 +29,16 @@ const Skills = () => {
 const Wrapper = styled.section`
   background: var(--primary-100);
   margin-bottom: 0;
+  padding-bottom: 2.5rem;
 
   .skills-center {
     width: 90vw;
     margin: 0 auto;
     max-width: var(--max-width);
+  }
+
+  li {
+    height: 100%;
   }
 
   h1 {
@@ -53,6 +58,7 @@ const Wrapper = styled.section`
   .skills {
     display: grid;
     place-items: center;
+    gap: 2.5rem;
   }
 
   @media (min-width: 1280px) {
