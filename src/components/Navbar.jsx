@@ -70,7 +70,6 @@ const Wrapper = styled.nav`
     color: var(--primary-700);
     font-weight: 600;
     padding-top: 1.5rem;
-    transition: var(--transition);
   }
 
   .nav-links {
@@ -101,12 +100,13 @@ const Wrapper = styled.nav`
         font-weight: 700;
         font-size: 1rem;
         letter-spacing: var(--letterSpacing);
+        transition-property: color;
         transition: var(--transition);
       }
 
       a:hover {
         color: var(--primary-700);
-        border-bottom: 2px solid var(--primary-700);
+        border-bottom: 1px solid var(--primary-700);
       }
     }
   }
