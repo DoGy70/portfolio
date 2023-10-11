@@ -74,10 +74,6 @@ const Wrapper = styled.nav`
     transition: var(--transition);
   }
 
-  h1:hover {
-    color: var(--primary-400);
-  }
-
   .nav-links {
     display: none;
   }
@@ -106,6 +102,7 @@ const Wrapper = styled.nav`
         font-weight: 700;
         font-size: 1rem;
         letter-spacing: var(--letterSpacing);
+        transition: var(--transition);
       }
 
       a:hover {
