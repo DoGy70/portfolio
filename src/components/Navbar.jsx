@@ -69,7 +69,6 @@ const Wrapper = styled.nav`
   h1 {
     color: var(--primary-700);
     font-weight: 600;
-    cursor: pointer;
     padding-top: 1.5rem;
     transition: var(--transition);
   }
