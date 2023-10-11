@@ -51,6 +51,10 @@ const Projects = () => {
 
 const Wrapper = styled.section`
   background: var(--grey-200);
+  h1 {
+    padding-top: 2rem;
+  }
+
   .projects-center {
     width: 90vw;
     max-width: var(--max-width);
