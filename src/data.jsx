@@ -1,4 +1,4 @@
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 import { FaReact, FaPython, FaCss3Alt } from "react-icons/fa";
 
 export const navButtons = [
@@ -28,6 +28,12 @@ export const socialLinks = [
     url: "https://www.linkedin.com/",
     icon: <BsLinkedin />,
   },
+  {
+    id: 4,
+    name: "GitHub",
+    url: "https://github.com/DoGy70",
+    icon: <BsGithub />,
+  },
 ];
 
 export const skillsRating = [
@@ -35,21 +41,21 @@ export const skillsRating = [
     id: 1,
     skill: "python",
     icon: <FaPython />,
-    rating: 2,
-    info: "Python is the first language that I started learning. Learning it has laid my foundations on programming. I have created one Tic-Tac-Toe console application using it. Basic knowledge.",
+    rating: 3,
+    info: "Python is the first language that I started learning. Learning it has laid my foundations on programming. Basic knowledge.",
   },
   {
     id: 2,
     skill: "react",
     icon: <FaReact />,
-    rating: 3.5,
-    info: "React is the latest technology that I started learning. It is used in nearly all of my projects. There is a lot of room for improvement. ",
+    rating: 4.5,
+    info: "React is the latest technology that I started learning. It is used in nearly all of my projects.",
   },
   {
     id: 3,
     skill: "html & css",
     icon: <FaCss3Alt />,
-    rating: 3.5,
-    info: "One can not create a website without knowing the fundamentals of CSS and HTML. I have grasped the fundamentals but still have a lot of room for improvement.",
+    rating: 4.5,
+    info: "One can not create a website without knowing the fundamentals of CSS and HTML. I have grasped the fundamentals.",
   },
 ];
