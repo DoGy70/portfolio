@@ -25,7 +25,7 @@ export const socialLinks = [
   {
     id: 3,
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/miroslav-pomanov-222924295/",
     icon: <BsLinkedin />,
   },
   {
