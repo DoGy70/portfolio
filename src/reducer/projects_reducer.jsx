@@ -25,11 +25,11 @@ const projects_reducer = (state, action) => {
 
   if (action.type === GET_PROJECTS_SUCCESS) {
     const newProjects = action.payload.map((project) => {
-      const { id, section, url } = project.fields;
+      const { id, section, url, url2 } = project.fields;
 
       const { url: img } = project.fields.img.fields.file;
 
-      return { id, section, url, img };
+      return { id, section, url, img, url2 };
     });
 
     return {

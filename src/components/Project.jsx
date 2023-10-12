@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const Project = ({ id, section, url, img }) => {
+const Project = ({ id, section, url = "", img, url2 = "" }) => {
   return (
     <Wrapper>
       <div className="container">
@@ -8,7 +8,7 @@ const Project = ({ id, section, url, img }) => {
           <img className="img" src={img} alt={section} />
         </div>
         <div className="info-container">
-          <a className="btn" href={url} target="_blank">
+          <a className="btn" href={url || url2} target="_blank">
             {section}
           </a>
         </div>
