@@ -46,15 +46,15 @@ const Wrapper = styled.section`
     display: grid;
     align-items: center;
     justify-content: center;
+    row-gap: 1rem;
     margin-top: 1.75rem;
     padding-bottom: 2rem;
   }
 
   @media (min-width: 992px) {
     .certificates {
-      grid-template-columns: repeat(2, 360px);
+      grid-template-columns: repeat(auto-fit, minmax(360px, 400px));
       place-items: center;
-      column-gap: 2rem;
     }
   }
 `;
